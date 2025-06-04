@@ -1,0 +1,19 @@
+{
+  "canvas": {
+    "width": 1024,
+    "height": 1024
+  },
+  "frame": {
+    "image": "twibbon.png",
+    "x": 0,
+    "y": 0,
+    "width": 1024,
+    "height": 1024
+  },
+  "photo": {
+    "x": 0,
+    "y": 0,
+    "width": 1024,
+    "height": 1024
+  }
+}
