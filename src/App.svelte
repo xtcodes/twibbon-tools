@@ -2,7 +2,7 @@
 	export let name;
 </script>
 
-<div class="main">
+<main>
     <h1>Twibbon {name}</h1>
     <p>
       <label>Upload Poto
@@ -18,23 +18,23 @@
       <button id="download">Download</button>
       <button id="share">Bagikan</button>
     </p>
-</div>
+</main>
 
 <style>
-	.main {
-width: 600px;
-margin: 20px auto;
-background: white;
-padding: 20px;
-border-radius: 12px;
-display: inline-block;
-box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+	main { 
+               width: 600px;
+               margin: 20px auto;
+               background: white;
+               padding: 20px;
+               border-radius: 12px;
+               display: inline-block;
+               box-shadow: 0 0 10px rgba(0,0,0,0.1);
+             }
 
 	@media (max-width: 700px) {
-.main {
-margin: 0 auto;
-width: auto;
-}
-}
+               main {
+               margin: 0 auto;
+               width: auto;
+               }
+              }
 </style>
