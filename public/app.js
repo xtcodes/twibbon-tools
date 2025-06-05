@@ -84,7 +84,7 @@ function handleUploadFrame(e) {
 }
 
 function handleDownload() {
-  if (!userImg) return alert("Silakan unggah gambar terlebih dahulu!");
+  if (!userImg) return showAlert("Silakan unggah gambar terlebih dahulu!");
 
   const tempCanvas = document.createElement("canvas");
   tempCanvas.width = canvas.width;
@@ -101,7 +101,7 @@ function handleDownload() {
 }
 
 async function handleShare() {
-  if (!userImg) return alert("Silakan unggah gambar terlebih dahulu!");
+  if (!userImg) return showAlert("Silakan unggah gambar terlebih dahulu!");
 
   const tempCanvas = document.createElement("canvas");
   tempCanvas.width = canvas.width;
@@ -122,7 +122,7 @@ async function handleShare() {
         url: "https://twibbon-tools.vercel.app/"
       });
     } else {
-      alert("Perangkat Anda tidak mendukung fitur Bagikan.");
+      showAlert("Perangkat Anda tidak mendukung fitur Bagikan.");
     }
   }, "image/png");
 }
