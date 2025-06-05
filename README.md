@@ -2,7 +2,7 @@
 
 Ini adalah situs web tempat Anda dapat menambahkan foto ke dalam bingkai
 
-<img src="og.png">
+<img src="/og.png">
 
 DEMO -> https://verdonk.netlify.app/
 
