@@ -1,6 +1,6 @@
 {
-  "name": "TwibbonKu",
-  "short_name": "Editor Twibbon",
+  "name": "Alat Twibbon Sederhana",
+  "short_name": "TwibbonKu",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
