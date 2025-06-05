@@ -1,4 +1,4 @@
-#ALAT TWIBBON SEDERHANA
+# ALAT TWIBBON SEDERHANA
 
 Ini adalah situs web tempat Anda dapat menambahkan foto ke dalam bingkai
 
@@ -6,7 +6,7 @@ Ini adalah situs web tempat Anda dapat menambahkan foto ke dalam bingkai
 
 DEMO -> https://verdonk.netlify.app/
 
-##TUTORIAL:
+## TUTORIAL:
 
 1. Upload gambar terbaik Anda.
 2. Sesuaikan gambar Anda dibingkai. ( Anda bisa mengganti bingkai Anda sendiri dengan background transparan .PNG )
