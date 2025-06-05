@@ -58,7 +58,7 @@ display: none;
 
 .custom-alert {
 position: fixed;
-bottom: 60px;
+bottom: 80px;
 left: 50%;
 transform: translateX(-50%);
 background: rgba(0, 0, 0, 0.7);
@@ -76,8 +76,16 @@ pointer-events: none;
 opacity: 1;
 }
 
+/* Untuk tablet (layar sedang) */
+@media (max-width: 1024px) {
+.custom-alert {
+bottom: 60px;
+}
+}
+
+/* Untuk mobile (layar kecil) */
 @media (max-width: 600px) {
 .custom-alert {
-bottom: 20px;
+bottom: 30px;
 }
 }
