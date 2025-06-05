@@ -56,88 +56,22 @@ input[type="file"] {
 display: none;
 }
 
-.bg {
-animation: bg_animate 10s ease-in-out alternate infinite;
--webkit-animation: bg_animate 10s ease-in-out alternate infinite;
--moz-animation: bg_animate 10s ease-in-out alternate infinite;
--o-animation: bg_animate 10s ease-in-out alternate infinite;
+.custom-alert {
+position: fixed;
+bottom: 20px;
+left: 50%;
+transform: translateX(-50%);
+background: rgba(0, 0, 0, 0.7);
+color: white;
+padding: 10px 20px;
+border-radius: 8px;
+font-size: 14px;
+opacity: 0;
+transition: opacity 0.3s ease-in-out;
+z-index: 1000;
+pointer-events: none;
 }
 
-@keyframes bg_animate {
-0% {
-background: #fff;
+.custom-alert.show {
+opacity: 1;
 }
-20% {
-background: #b0ffc3;
-} 40% {
-background: #fffcb0;
-}
-60% {
-background: #ffa3a3;
-}
-80% {
-background: #a3ddff;
-}
-100% {
-background: #4b4b4b;
-}
-}
-@-webkit-keyframes bg_animate {
-0% {
-background: #fff;
-} 20% {
-background: #b0ffc3;
-} 40% {
-background: #fffcb0;
-}
-60% { 
-background: #ffa3a3;
-}
-80% {
-background: #a3ddff;
-}
-100% {
-background: #4b4b4b;
-}
-}
-@-moz-keyframes bg_animate{
-0% {
-background: #fff;
-}
-20% {
-background: #b0ffc3;
-}
-40% {
-background: #fffcb0;
-}
-60% {
-background: #ffa3a3;
-}
-80% {
-background: #a3ddff;
-}
-100% {
-background: #4b4b4b;
-}
-}
-@-o-keyframes bg_animate{
-0% {
-background: #fff;
-}
-20% {
-background: #b0ffc3;
-}
-40% {
-background: #fffcb0;
-}
-60% {
-background: #ffa3a3;
-}
-80% {
-background: #a3ddff;
-}
-100% {
-background: #4b4b4b;
-}
-}
-
