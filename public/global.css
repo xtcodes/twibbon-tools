@@ -58,7 +58,7 @@ display: none;
 
 .custom-alert {
 position: fixed;
-bottom: 20px;
+bottom: 60px;
 left: 50%;
 transform: translateX(-50%);
 background: rgba(0, 0, 0, 0.7);
@@ -74,4 +74,10 @@ pointer-events: none;
 
 .custom-alert.show {
 opacity: 1;
+}
+
+@media (max-width: 600px) {
+.custom-alert {
+bottom: 20px;
+}
 }
