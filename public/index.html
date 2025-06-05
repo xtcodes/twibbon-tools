@@ -17,6 +17,7 @@
 
 <body>
 	<script defer src="/app.js"></script>
+	<script defer src="/alert.js"></script>
 	<script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('service-worker.js')
@@ -25,16 +26,6 @@
     }
 	</script>
 
-	<script>
-function showAlert(message, duration = 3000) {
-  const alertBox = document.getElementById("alert");
-  alertBox.textContent = message;
-  alertBox.classList.add("show");
-  setTimeout(() => {
-    alertBox.classList.remove("show");
-  }, duration);
-}
-	</script>
 	<div id="alert" class="custom-alert"></div>
 </body>
 </html>
