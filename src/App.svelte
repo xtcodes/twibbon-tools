@@ -18,8 +18,6 @@
       <button id="download">Download</button>
       <button id="share">Bagikan</button>
     </p>
-
-<div id="alert" class="custom-alert"></div>
 </main>
 
 <style>
