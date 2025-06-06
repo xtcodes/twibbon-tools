@@ -119,7 +119,7 @@ async function handleShare() {
         files: [file],
         title: "Twibbon Saya",
         text: "Lihat hasil twibbon saya!",
-        url: "https://twibbon-tools.vercel.app/"
+        url: "https://verdonk.netlify.app/"
       });
     } else {
       showAlert("Perangkat Anda tidak mendukung fitur Bagikan.");
