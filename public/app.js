@@ -117,8 +117,9 @@ async function handleShare() {
     if (navigator.canShare && navigator.canShare({ files: [file] })) {
       await navigator.share({
         files: [file],
-        title: "Twibbon Saya",
-        text: "Lihat hasil twibbon saya!",
+        title: "Bergabunglah dalam Kampanye Twibbon Kami!",
+        text: "Saya baru saja membuat Twibbon, ayo kamu juga buat!",
+        filename: "twibbon-saya.png",
         url: "https://verdonk.netlify.app/"
       });
     } else {
